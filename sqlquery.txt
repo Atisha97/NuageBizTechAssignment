@@ -1,0 +1,4 @@
+BEGIN;
+CREATE TABLE `employee_employee` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(120) NOT NULL, `email` varchar(254) NOT NULL, `contact` varchar(10) NOT NULL, `password` varchar(30) NOT NULL);
+CREATE TABLE `electronics_electronics` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(120) NOT NULL, `price` integer NOT NULL, `stock` integer NOT NULL);
+COMMIT;

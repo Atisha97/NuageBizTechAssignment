@@ -1,5 +1,5 @@
 decorator==4.4.0
 Django==2.2.1
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 mysqlclient
 django-rest-swagger
